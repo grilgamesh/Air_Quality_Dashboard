@@ -4,7 +4,7 @@ See https://grilgamesh.github.io/Air_Quality_Dashboard/ to interact with the dat
 
 This front-end dashboard builds on a join of two sets of data taken from reputable online sources: The NHS England asthma data is taken from gov.uk, and the air pollution data is taken from https://openweathermap.org.
 
-The file contains:
+The index displays:
 * a heatmap of the NHS asthma data
 * a dropdown menu allowing users to choose an NHS centre to focus on
 * a summary of the asthma rate for that centre, plus averages of the air quality measures, allowing these to be numerically compared
