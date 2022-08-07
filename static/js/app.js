@@ -316,13 +316,13 @@ function init(national_gp_dict, national_air_pollution_data) {
 console.log("czechpoint 2");
 
 var url1 = "static/js/national_gp_dict.json";
-d3.json(url1).then(function(response1) {
-    console.log(response1);
+d3.json(url1).then(function(national_gp_dict) {
+    console.log(national_gp_dict);
 
     var url2 = "static/js/national_air_pollution_data.json";
-    d3.json(url2).then(function(response2) {        
-        console.log(response2);
+    d3.json(url2).then(function(national_air_pollution_data) {        
+        console.log(national_air_pollution_data);
 
-        init(response1, response2);
+        init(national_gp_dict, national_air_pollution_data);
     })
 })
