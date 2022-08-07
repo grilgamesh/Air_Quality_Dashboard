@@ -315,7 +315,7 @@ function init() {
 
 console.log("czechpoint 2");
 
-var url1 = "national_gp_dict.json";
+var url1 = "static/js/national_gp_dict.json";
 
 d3.json(url1).then(function(national_gp_dict) {
     console.log(national_gp_dict);
