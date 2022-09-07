@@ -20,11 +20,13 @@ This front-end dashboard builds on a join of two sets of data taken from reputab
 * a scatter plot of NHS centres (with the currently selected centre highlit), comparing asthma rate on the y axis with a selectable air pollutant on the x axis
 * two violin plots, bolstering the scatter plot to illustrate a frequency curve of the x and y variables.
 
-# Further additions
+## Further additions:
 In future I plan to add:
 * regression lines and correlation measures to the scatter plot
 * data for the rest of the UK
 * location marker for the currently selected NHS centre on the heatmap
 * a better tuned heatmap that works better at different zoom levels.
 
+
+### development history:
 This is a cleaned-up repo of https://github.com/JovanS27/PROJECT_3 
