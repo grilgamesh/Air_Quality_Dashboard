@@ -28,5 +28,5 @@ In future I plan to add:
 * a better tuned heatmap that works better at different zoom levels.
 
 
-### development history:
+## Development history:
 This is a cleaned-up repo of https://github.com/JovanS27/PROJECT_3 
